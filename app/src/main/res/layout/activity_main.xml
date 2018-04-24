@@ -10,8 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="study.every.nongnong.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/Anony"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Anonymous!" />
+
+    <Button
+        android:id="@+id/imps"
+        android:layout_toRightOf="@+id/Anony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implements!" />
 </RelativeLayout>
