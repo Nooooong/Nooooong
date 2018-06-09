@@ -22,4 +22,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Implements!" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:text="리니어 레이아웃 안에 선언 "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
 </RelativeLayout>
