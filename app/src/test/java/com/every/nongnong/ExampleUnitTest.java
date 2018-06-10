@@ -1,4 +1,4 @@
-package study.every.nongnong;
+package com.every.nongnong;
 
 import org.junit.Test;
 

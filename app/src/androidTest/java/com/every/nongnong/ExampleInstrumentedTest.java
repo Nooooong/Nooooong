@@ -1,4 +1,4 @@
-package study.every.nongnong;
+package com.every.nongnong;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
