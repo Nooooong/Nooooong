@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NongNong</string>
+
+    <!--Home-->
+    <string name="header_home">홈</string>
+    <string name="mygame">내 예정경기</string>
+
+    <!---->
+
 </resources>
