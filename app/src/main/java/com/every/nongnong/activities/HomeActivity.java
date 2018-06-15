@@ -30,5 +30,6 @@ public class HomeActivity extends AppCompatActivity {
         indicator.setViewPager(viewPager);
         // test master
         // test branch
+
     }
 }
