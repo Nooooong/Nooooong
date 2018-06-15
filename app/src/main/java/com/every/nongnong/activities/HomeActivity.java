@@ -28,6 +28,6 @@ public class HomeActivity extends AppCompatActivity {
 
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(viewPager);
-        //reset
+        //reset1
     }
 }
