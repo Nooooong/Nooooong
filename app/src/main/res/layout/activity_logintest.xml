@@ -5,15 +5,14 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="로그인 화면 "
-        android:layout_width="wrap_content"
+        android:text="한글"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-
 
     <Button
-        android:id="@+id/loginTest"
-        android:text=" 로그인 테스트 페이지로 "
+        android:text="완료"
+        android:id="@+id/done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
 </LinearLayout>
