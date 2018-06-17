@@ -21,6 +21,9 @@
         <activity android:name=".activities.HomeActivity" android:screenOrientation="portrait"></activity>
         <activity android:name=".activities.LoginTest" android:screenOrientation="portrait"></activity>
         <activity android:name=".activities.LoginLogin01Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.LoginSignUp01Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.LoginSignUp02Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.LoginSignUp03Activity" android:screenOrientation="portrait"></activity>
 
     </application>
 

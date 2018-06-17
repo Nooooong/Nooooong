@@ -17,9 +17,9 @@ public class LoginLogin01Activity extends AppCompatActivity {
         setContentView(R.layout.activity_loginlogin01);
 
 
-        Button button = findViewById(R.id.login_login);
+        Button button1 = findViewById(R.id.login_login);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -30,7 +30,20 @@ public class LoginLogin01Activity extends AppCompatActivity {
 
             }
         });
-        //회원가입 버튼에 대한 액션 만들어야 함! 버튼 id -> login_signin
+
+        Button button2 = findViewById(R.id.login_signup01);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent intent = new Intent(LoginLogin01Activity.this ,LoginSignUp01Activity.class);
+                startActivity(intent);
+
+
+            }
+        });
 
 
 

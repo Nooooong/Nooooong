@@ -4,6 +4,23 @@
     android:gravity="center"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "이메일 인증"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text = "계정확인을 위한 메일을 입력해주세요."
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "이메일"
+        />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -11,23 +28,12 @@
         android:inputType="textEmailAddress"
         />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint = "비밀번호"
-        android:inputType="textPassword"
-        />
-
-    <Button
-        android:id="@+id/login_login"
-        android:text=" 로그인 후 홈화면으로 "
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
     <Button
         android:id="@+id/login_signup01"
-        android:text=" 가입하기 "
+        android:text=" 이메일 인증받기 "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
+
 </LinearLayout>
