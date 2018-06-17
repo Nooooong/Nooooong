@@ -20,6 +20,8 @@
         <activity android:name=".activities.MyPageActivity" android:screenOrientation="portrait"></activity>
         <activity android:name=".activities.HomeActivity" android:screenOrientation="portrait"></activity>
         <activity android:name=".activities.LoginTest" android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.LoginLogin01Activity" android:screenOrientation="portrait"></activity>
+
     </application>
 
 </manifest>
