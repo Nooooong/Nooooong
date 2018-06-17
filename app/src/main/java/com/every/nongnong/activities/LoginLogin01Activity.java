@@ -31,9 +31,24 @@ public class LoginLogin01Activity extends AppCompatActivity {
             }
         });
 
-        Button button2 = findViewById(R.id.login_signup01);
+        Button button2 = findViewById(R.id.login_forgot);
 
         button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent intent = new Intent(LoginLogin01Activity.this ,LoginForgot01Activity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+
+        Button button3 = findViewById(R.id.login_signup01);
+
+        button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

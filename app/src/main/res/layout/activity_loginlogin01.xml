@@ -24,6 +24,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/login_forgot"
+        android:text=" 비밀번호를 잊어버리셨나요? "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
     <Button
         android:id="@+id/login_signup01"

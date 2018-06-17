@@ -24,6 +24,7 @@
         <activity android:name=".activities.LoginSignUp01Activity" android:screenOrientation="portrait"></activity>
         <activity android:name=".activities.LoginSignUp02Activity" android:screenOrientation="portrait"></activity>
         <activity android:name=".activities.LoginSignUp03Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.LoginForgot01Activity" android:screenOrientation="portrait"></activity>
 
     </application>
 
